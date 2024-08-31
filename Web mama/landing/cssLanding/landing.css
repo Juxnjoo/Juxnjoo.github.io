@@ -1,0 +1,415 @@
+
+/***** RESET *****/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+html{
+    background-color: #ffffff;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    color: #4b4b4b; 
+}
+body{
+    height: 100%;
+    text-align: justify;  
+    font-size: 15px; 
+}
+a:visited,a:link{
+    color: #4b4b4b;
+}
+p{
+    line-height: 25px;  
+}
+/*********/
+body section:nth-of-type(1){
+   background: url(/fondos/blanco5.avif) center center no-repeat ;
+   background-size: 148% ;
+}
+.logo, .video{
+    display: inline-block;
+    width: 90%;
+    margin: 0 5%;
+    padding: 0 10%;
+    text-align: center;
+}
+.logo{
+    width: 90%;    
+    height: 400px;
+    background: url(../../img/logoPortadaLanding.png) center center no-repeat;
+    background-size: contain;    
+}
+section iframe{
+    margin-bottom: 30px;
+}
+/*********/
+.landing{
+    background: url(/fondos/verde5.webp) center center no-repeat;
+    background-size: cover;
+    padding: 30px 18% ;   
+}
+/*color letras primer parrafo*/
+.primero p{
+    padding: 9px 0;   
+    color: #000000;
+}
+.primero h3, .landingList h3{
+    text-align: center;
+    width: 50%;
+    margin: 20px 25%;
+    padding: 25px 0 19px;
+    font-size: 20px;
+}
+.primero h3{
+    color: #ffffff;  
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+.landingList h3{
+    color: #4b4b4b; 
+    border-bottom: 1px solid #4b4b4b;
+    border-top: 1px solid #4b4b4b;
+}
+.landingList{
+    padding: 30px 22%;
+    background: url(/fondos/blanco7.jpg) center center no-repeat;   
+    background-size: cover;
+    color: #4b4b4b; 
+}
+.landingList ul li{
+    margin-left: 19px;
+    padding: 19px 0 9px;
+    list-style: disc;
+    font-weight: 600;
+    font-size: 16px;
+}
+.landingList ul p{
+    color: #228A7F; 
+}
+.infoLanding div:nth-of-type(1) a{
+     color: #228A7F; 
+}
+.classLandingList{
+    padding: 9px 15%;   
+    color: #ffffff;
+}
+.classLandingList ul li{
+    list-style: disc;
+    padding: 10px 0
+}
+.infoLanding{
+    padding: 30px 18% 80px;
+    text-align: center;
+    font-size: 18px;
+}
+.infoLanding div:nth-of-type(2){
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.btnwhatsapp{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 37.5%;
+    width: 25%;
+    border-radius: 50px;
+    background-color: #00bb2d;;
+    padding: 20px 2%;
+    color:#ffffff;
+}
+.botonWhatsapp{
+    margin: 20px 32.5%;
+    font-size: 20px;
+    width: 35%;
+    border-radius: 50px;
+    background-color: #00bb2d;
+    padding: 20px 2%;
+    color:#ffffff;
+    text-align: center;
+}
+.botonWhatsapp:hover, .btnwhatsapp:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #228A7F;
+    color:#ffffff;
+}
+/*********/
+body article:nth-of-type(1){
+     background: url(/fondos/verde5.webp) center center no-repeat;   
+     background-size: cover;
+     background-attachment: fixed;
+}
+.classCond div:nth-of-type(1){
+    padding: 50px 17% 50px;
+}
+.classCond h2{
+    text-align: center;
+    padding: 20px 0 50px; 
+}
+.classCond{
+    color: #4b4b4b; 
+}
+.classCond div:nth-of-type(2){
+    padding: 35px 0 35px;
+    background-color: rgba(255,255,255,0.7);
+}
+.classCond div:nth-of-type(2) h4{
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 15px ;
+}
+.classCond div:nth-of-type(2) ul li{
+    list-style: disc;
+    padding: 10px 0;
+    margin: 0 22%;
+}
+.classCond div:nth-of-type(3){
+    padding: 35px 17% 35px;
+    background-color: rgba(34,138,127,0.6);
+    color:#ffffff;
+}
+.classCond div:nth-of-type(3) h4{
+    text-align: left;
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+.classCond div:nth-of-type(3) ul li{
+    list-style: disc;
+    margin: 0 2%;
+    padding: 10px 0;
+}
+.classCond div:nth-of-type(4){
+    text-align: center;
+    background-color: rgba(255,255,255,1);
+}
+.classCond div:nth-of-type(4) h3{
+    padding-top: 50px;   
+}
+/********/
+ 
+body.f_landing_malestar section:nth-of-type(1){
+    padding-top: 40px;
+}
+body section:nth-of-type(1) p{
+    padding: 30px 18% ; 
+}
+.classLanding_m{
+    padding: 30px 18%;   
+}     
+.classLanding_m p{
+    padding: 9px 0;   
+    color: #ffffff;
+}
+.classLanding_m h3, .landingList_m h3{
+    text-align: center;
+    width: 75%;
+    margin: 20px 10%;
+    padding: 25px 0 19px;
+    font-size: 20px;
+}
+.classLanding_m h3{
+    color: teal;  
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+.landingList_m h3{
+    color: #4b4b4b; 
+    border-bottom: 1px solid #4b4b4b;
+    border-top: 1px solid #4b4b4b;
+}
+.landingList_m{
+    padding: 30px 18%;
+    color: #4b4b4b; 
+}
+.landingList_m ul li{
+    margin-left: 19px;
+    padding: 19px 0 9px;
+    list-style: disc;
+    font-weight: 600;
+    font-size: 15px;
+}
+.landingList_m ul{
+    padding-bottom: 20px;
+}
+.landingList_m ul p{
+    color: #228A7F; 
+}
+.f_landingList_m{
+    color: #ffffff;
+    background: url(../../img/fondoLandingCampoVerde.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f_landingList_m h3{
+    border-color: #ffffff;
+}
+.f_landingList_m2{
+    background: url(../../img/fondoLandingTierraBlanco.jpg) center center no-repeat;
+    background-size: cover;
+}
+.f_landingCaja{
+    background: url(../../img/fondoLandingCajaVerde.jpg) center center no-repeat;
+    background-size: cover;
+    color:#ffffff;
+}
+.f_landingCaja h3{
+    color:#ffffff;
+    border-color: #9A9A9A;
+}
+.cajaLanding{
+    text-align: center;
+    width: 60%;
+    margin: 35px 20%;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #228A7F;
+    background-color: rgba(255,255,255,0.7);
+}
+.infoLanding_m{
+    background: url(../../img/fondoLandingBlanco.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 30px 18% 80px;
+    text-align: center;
+    font-size: 18px;
+}
+.infoLanding_m h4{
+    padding-bottom: 30px;
+}
+.infoLanding_m b{
+    color: #228A7F;
+}
+.infoLanding_m div:nth-of-type(2){
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.contenedorImg{
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 0 10px;
+}
+.imgDespachoUno, .imgDespachoDos{
+    float:left;
+    width: 48%;
+    height:320px;
+    border:1px solid #228A7F;
+    border-radius: 8px;   
+}
+.imgDespachoUno{
+    background: url(../../img/despachoUno.jpg) center center no-repeat;
+    background-size: cover;
+    margin-right: 4%;
+}
+.imgDespachoDos{
+    background: url(../../img/despachoDos.jpg) center center no-repeat;
+    background-size: cover;
+}
+/********/
+/* CSS para la animación y localización de los DIV de cookies */
+ 
+@keyframes desaparecer
+{
+0%		{bottom: 0px;}
+80%		{bottom: 0px;}
+100%		{bottom: -50px;}
+}
+ 
+@-webkit-keyframes desaparecer /* Safari and Chrome */
+{
+0%		{bottom: 0px;}
+80%		{bottom: 0px;}
+100%		{bottom: -50px;}
+}
+ 
+@keyframes aparecer
+{
+0%		{bottom: -38px;}
+10%		{bottom: 0px;}
+90%		{bottom: 0px;}
+100%		{bottom: -38px;}
+}
+ 
+@-webkit-keyframes aparecer /* Safari and Chrome */
+{
+0%		{bottom: -38px;}
+10%		{bottom: 0px;}
+90%		{bottom: 0px;}
+100%		{bottom: -38px;}
+}
+#cookiesms1:target {
+    display: none;
+}
+.cookiesms{	
+	width:100%;
+	margin:0 auto;
+	padding:10px;
+    text-align: center;
+	clear:both;
+    color: #333;
+    bottom:0px;
+    position:fixed;
+    font-size: 15px;
+    left: 0px;
+    background-color: #FFF;
+    opacity:0.9;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    transition: bottom 1s;
+    -webkit-transition:bottom 1s; /* Safari */
+    -webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+    -moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+    box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+    z-index:999999999;
+}
+.botonCookies{
+    background-color: #228a7f;
+    font-size: 15px;
+    width: 80px;
+    height: 25px;
+    color: white;
+    margin: 6px;
+        
+}
+.cookiesms:hover{
+bottom:0px;
+}
+.cookies2{
+background-color: #FFF;
+display:inline;
+opacity:0.95;
+filter:alpha(opacity=95);
+position:absolute; 
+left:1%; 
+top:-30px;
+font-size:15px;
+height:30px;
+padding-top: 5px;
+padding-left:25px;
+padding-right:25px;
+-webkit-border-top-right-radius: 15px;
+-webkit-border-top-left-radius: 15px;
+-moz-border-radius-topright: 15px;
+-moz-border-radius-topleft: 15px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+-webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+-moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+}
+ 
+/* Fin del CSS para cookies */
+.classLanding {
+    background: url(/fondos/verde5.webp) center center no-repeat;
+    background-size: cover;
+    padding: 30px 18%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
