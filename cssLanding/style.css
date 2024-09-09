@@ -62,7 +62,7 @@ html {
     }
 }
 .primero {
-    background: url(/landing/fondos/verde5.webp) center center no-repeat;
+    background: url(../fondos/verde5.webp) center center no-repeat;
     background-size: cover;
     padding: 30px 18%;
 }
@@ -134,7 +134,7 @@ p{
 }
 /*********/
 body section:nth-of-type(1){
-   background: url(/landing/fondos/blanco5.avif) center center no-repeat ;
+   background: url(../fondos/blanco5.avif) center center no-repeat ;
    background-size: 148% ;
 }
 .logo, .video{
@@ -155,7 +155,7 @@ section iframe{
 }
 /*********/
 .landing{
-    background: url(/landing/fondos/verde5.webp) center center no-repeat;
+    background: url(../fondos/verde5.webp) center center no-repeat;
     background-size: cover;
     padding: 30px 18% ;   
 }
@@ -183,7 +183,7 @@ section iframe{
 }
 .landingList{
     padding: 30px 22%;
-    background: url(/landing/fondos/blanco7.jpg) center center no-repeat;   
+    background: url(../fondos/blanco7.jpg) center center no-repeat;   
     background-size: cover;
     color: #4b4b4b; 
 }
@@ -244,7 +244,7 @@ section iframe{
 }
 /*********/
 body article:nth-of-type(1){
-     background: url(/landing/fondos/verde5.webp) center center no-repeat;   
+     background: url(../fondos/verde5.webp) center center no-repeat;   
      background-size: cover;
      background-attachment: fixed;
 }
@@ -508,7 +508,7 @@ box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
  
 /* Fin del CSS para cookies */
 .classLanding {
-    background: url(/landing/fondos/verde5.webp) center center no-repeat;
+    background: url(../fondos/verde5.webp) center center no-repeat;
     background-size: cover;
     padding: 30px 18%;
 }

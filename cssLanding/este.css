@@ -101,6 +101,6 @@ html {
 u {
     text-decoration: underline;
 }
-.centrado {
+.centrado { text-align: center;
     
 }
