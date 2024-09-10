@@ -661,7 +661,7 @@ box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
     .imgDespachoUno, .imgDespachoDos{
         height: 190px;
     }
-}
-.amarillo{
-    color:yellow
-}
+    }
+    .amarillo{
+        color:yellow;
+    }
