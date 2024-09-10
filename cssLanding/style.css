@@ -664,4 +664,10 @@ box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
     }
     .amarillo{
         color:yellow;
-    }
+    
+    .botonmail{
+        margin: 20px 2.5%;
+        width: 95%;
+        padding: 15px 5%;
+        font-size: 18px;
+	    }
